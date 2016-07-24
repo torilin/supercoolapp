@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var backGroundImage: UIImageView!
+    @IBOutlet weak var bombBirdImage: UIImageView!
+    @IBOutlet weak var tapMeButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +25,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    @IBAction func tapMeButtonPressed(sender: AnyObject) {
+        backGroundImage.hidden = false
+        bombBirdImage.hidden = false
+        tapMeButton.hidden = true
+        
+    }
+    
 
 }
 
