@@ -40,6 +40,8 @@ class ViewController: UIViewController {
         backGroundImage.hidden = true
         bombBirdImage.hidden = true
         tapMeButton.hidden = false
+        resetButton.hidden = true
+        
         
     }
     
