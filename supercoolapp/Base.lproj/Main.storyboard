@@ -14,25 +14,35 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgg" translatesAutoresizingMaskIntoConstraints="NO" id="kSd-3j-twW">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bomb" translatesAutoresizingMaskIntoConstraints="NO" id="kxy-ZW-QIN">
-                                <rect key="frame" x="36" y="95" width="237" height="290"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dv-dO-3YT">
-                                <rect key="frame" x="59" y="251" width="203" height="54"/>
+                                <rect key="frame" x="99" y="271" width="203" height="81"/>
                                 <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="50"/>
-                                <state key="normal" title="Tap Me">
+                                <state key="normal" title="TAP ME">
                                     <color key="titleColor" red="1" green="0.36877224682288812" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="tapMeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lbd-aO-7S2"/>
+                                    <action selector="tapMeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cov-in-xiO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myJ-j9-Hf5">
+                                <rect key="frame" x="99" y="522" width="203" height="81"/>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="50"/>
+                                <state key="normal" title="RESET">
+                                    <color key="titleColor" red="1" green="0.36877224679999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="reset" destination="BYZ-38-t0r" eventType="touchUpInside" id="lVt-cq-vAh"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bomb" translatesAutoresizingMaskIntoConstraints="NO" id="kxy-ZW-QIN">
+                                <rect key="frame" x="69" y="123" width="237" height="290"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -42,7 +52,7 @@
                             <constraint firstAttribute="trailing" secondItem="kSd-3j-twW" secondAttribute="trailing" id="t00-0i-OvQ"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="backGroundImage" destination="kSd-3j-twW" id="eYT-2Y-2sY"/>
                         <outlet property="bombBirdImage" destination="kxy-ZW-QIN" id="oq0-wc-daR"/>
