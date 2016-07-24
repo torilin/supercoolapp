@@ -35,7 +35,6 @@ class ViewController: UIViewController {
         tapMeButton.hidden = true
         resetButton.hidden = false
 
-        
     }
     
     @IBAction func reset() {
