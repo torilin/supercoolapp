@@ -13,11 +13,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var backGroundImage: UIImageView!
     @IBOutlet weak var bombBirdImage: UIImageView!
     @IBOutlet weak var tapMeButton: UIButton!
+    @IBOutlet weak var resetButton: UIButton!
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+        resetButton.hidden = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -30,6 +33,8 @@ class ViewController: UIViewController {
         backGroundImage.hidden = false
         bombBirdImage.hidden = false
         tapMeButton.hidden = true
+        resetButton.hidden = false
+
         
     }
     

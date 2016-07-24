@@ -56,6 +56,7 @@
                     <connections>
                         <outlet property="backGroundImage" destination="kSd-3j-twW" id="eYT-2Y-2sY"/>
                         <outlet property="bombBirdImage" destination="kxy-ZW-QIN" id="oq0-wc-daR"/>
+                        <outlet property="resetButton" destination="myJ-j9-Hf5" id="CpU-dM-xb5"/>
                         <outlet property="tapMeButton" destination="0dv-dO-3YT" id="jdd-FW-rxM"/>
                     </connections>
                 </viewController>
